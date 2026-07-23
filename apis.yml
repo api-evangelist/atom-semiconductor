@@ -1,7 +1,30 @@
 aid: atom-semiconductor
-name: atom-semiconductor
-description: atom-semiconductor is a company surfaced as a portfolio company of qiming and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atom-semiconductor.png
+name: Atom Semiconductor
+description: >-
+  Atom Semiconductor (Atom Semiconductor Technologies Limited) is a fabless
+  mixed-signal chip design company founded in Hong Kong in October 2020, with
+  offices in Shenzhen and Shanghai. It designs high-performance analog and
+  mixed-signal semiconductors for consumer and industrial IoT systems across
+  three product lines: digital sensor chips (temperature/humidity, pressure,
+  optical), analog-to-digital converters (24-bit Sigma-Delta, high-precision
+  SAR, and high-speed GSPS ADCs), and microprocessors. Its first product, the
+  AS1412 24-bit Sigma-Delta ADC, shipped for customer trials in late 2021. The
+  company raised roughly 100M yuan in a pre-A round led by Qiming Venture
+  Partners (with Venus Medtech and Alibaba Entrepreneurs Fund) and was named to
+  the Forbes Asia 100 To Watch 2022. It is a hardware chip designer and does not
+  publish a developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/atom-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Analog
+- Mixed-Signal
+- Sensors
+- ADC
+- IoT
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://atom-semiconductor.com
+- type: Blog
+  url: https://atom-semiconductor.com/category/news/
+- type: Support
+  url: https://atom-semiconductor.com/contact-us/
+- type: DomainSecurity
+  url: security/atom-semiconductor-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
